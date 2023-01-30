@@ -23,9 +23,8 @@ const SelectFighter = () => {
       console.log('found')
       axios.get('https://data.mongodb-api.com/app/data-pkrpq/endpoint/malecruise',  {
         headers:{
-          'api-key': '5opRhTzTbi2N2A71LeLZBAhrZEDxjUakTc1UOncQ2qGjg5CE1IvGTfLBMFFpVyL2',
           'Access-Control-Allow-Origin': '*',
-          'Content-Type': 'application/json',
+          'api-key': '5opRhTzTbi2N2A71LeLZBAhrZEDxjUakTc1UOncQ2qGjg5CE1IvGTfLBMFFpVyL2',
         }
       })
         .then(res => {

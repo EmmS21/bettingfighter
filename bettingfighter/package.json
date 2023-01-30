@@ -1,7 +1,8 @@
 {
-  "name": "argon-design-system-react",
+  "name": "Betting Boxers",
   "version": "1.1.1",
   "description": "React version of Argon Design System by Creative Tim",
+  "proxy": "http://127.0.0.1:3000",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -22,12 +23,10 @@
     "argon-design-system-react",
     "design-system-react"
   ],
-  "author": "Creative Tim",
-  "license": "MIT",
+  "author": "Emmanuel Sibanda",
   "bugs": {
     "url": "https://github.com/creativetimofficial/argon-design-system-react/issues"
   },
-  "homepage": "https://demos.creative-tim.com/argon-design-system-react/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build && gulp licenses",
@@ -51,6 +50,7 @@
     "antd": "^5.1.6",
     "axios": "^1.2.6",
     "bootstrap": "4.3.1",
+    "cors": "^2.8.5",
     "classnames": "2.3.1",
     "headroom.js": "0.12.0",
     "moment": "2.29.4",
