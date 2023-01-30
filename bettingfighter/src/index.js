@@ -1,12 +1,12 @@
 /*!
 
 =========================================================
-* Black Dashboard React v1.2.1
+* Argon Design System React - v1.1.1
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/black-dashboard-react
+* Product Page: https://www.creative-tim.com/product/argon-design-system-react
 * Copyright 2022 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/black-dashboard-react/blob/master/LICENSE.md)
+* Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md)
 
 * Coded by Creative Tim
 
@@ -19,31 +19,38 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 
-import AdminLayout from "layouts/Admin/Admin.js";
-import RTLLayout from "layouts/RTL/RTL.js";
-import Home from "./components/LandingPage/Home";
+import "assets/vendor/nucleo/css/nucleo.css";
+import "assets/vendor/font-awesome/css/font-awesome.min.css";
+import "assets/scss/argon-design-system-react.scss?v1.1.0";
 
-import "assets/scss/black-dashboard-react.scss";
-import "assets/demo/demo.css";
-import "assets/css/nucleo-icons.css";
-import "@fortawesome/fontawesome-free/css/all.min.css";
-
-import ThemeContextWrapper from "./components/ThemeWrapper/ThemeWrapper";
-import BackgroundColorWrapper from "./components/BackgroundColorWrapper/BackgroundColorWrapper";
+import Index from "views/Index.js";
+import Landing from "views/pages/Landing.js";
+import Login from "views/pages/Login.js";
+import Profile from "views/pages/Profile.js";
+import Register from "views/pages/Register.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-  <ThemeContextWrapper>
-    <BackgroundColorWrapper>
-      <BrowserRouter>
-        <Switch>
-          <Route path="/admin" render={(props) => <AdminLayout {...props} />} />
-          <Route path="/rtl" render={(props) => <RTLLayout {...props} />} />
-          <Route path="/" render={(props) => <Home {...props} />} />
-          <Route path="/" render={(props) => <Home {...props} />} />
-        </Switch>
-      </BrowserRouter>
-    </BackgroundColorWrapper>
-  </ThemeContextWrapper>
+  <BrowserRouter>
+    <Switch>
+      <Route path="/" exact render={(props) => <Landing {...props} />} />
+      <Route
+        path="/login-page"
+        exact
+        render={(props) => <Login {...props} />}
+      />
+      <Route
+        path="/profile-page"
+        exact
+        render={(props) => <Profile {...props} />}
+      />
+      <Route
+        path="/register-page"
+        exact
+        render={(props) => <Register {...props} />}
+      />
+      <Redirect to="/" />
+    </Switch>
+  </BrowserRouter>
 );

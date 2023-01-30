@@ -1,24 +1,30 @@
-# [Black Dashboard React](https://demos.creative-tim.com/black-dashboard-react/#/dashboard) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fdemos.creative-tim.com%2Fblack-dashboard-react%2F%23%2Fadmin%2Fdashboard&text=Black%20Dashboard%20React%20by%20Creative%20Tim%20%7C%20Free%20React%20Admin%20Template&original_referer=https%3A%2F%2Fdemos.creative-tim.com%2Fblack-dashboard-react%2F&via=creativetim&hashtags=react%2Ccreativetim%2Cdark%2Cdashboard%2Cbootstrap%2Creactstrap%2Creactjs)
+# [Argon Design System React](https://demos.creative-tim.com/argon-design-system-react?ref=adsr-github-readme) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/home?status=Argon%20Design%20System%20is%20a%20Free%20Bootstrap%204,%20React%20and%20Reactstrap%20Dashboard%20made%20using%20create-react-app%20%E2%9D%A4%EF%B8%8F%0Ahttps%3A//demos.creative-tim.com/argon-design-system-react%20%23react%20%23reactstrap%20%23createreactapp%20%23argon%20%23argondesign%20%23reactkit%20%23argonreact%20%23reactdesign%20%23bootstrap%20%23design%20%23uikit%20%23freebie%20%20via%20%40CreativeTim)
 
-![version](https://img.shields.io/badge/version-1.2.1-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/black-dashboard-react.svg?maxAge=2592000)]() [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/black-dashboard-react.svg?maxAge=2592000)]() [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
+![version](https://img.shields.io/badge/version-1.1.1-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/argon-design-system-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/argon-design-system-react/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/argon-design-system-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/argon-design-system-react/issues?q=is%3Aissue+is%3Aclosed) [![Join the chat at https://gitter.im/NIT-dgp/General](https://badges.gitter.im/NIT-dgp/General.svg)](https://gitter.im/creative-tim-general/Lobby) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
 
-![Product Gif](./github-assets/black-dashboard-react.gif)
+![Product Gif](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-design-system-react/argon-design-system-react.gif)
 
-Black Dashboard React is a beautiful [Bootstrap 4](http://getbootstrap.com/), [Reacstrap](https://reactstrap.github.io/) and [React](https://reactjs.org/) ([create-react-app](https://github.com/facebook/create-react-app)) Admin Dashboard with a huge number of components built to fit together and look amazing. If you are looking for a tool to manage and visualize data about your business, this dashboard is the thing for you. It combines colors that are easy on the eye, spacious cards, beautiful typography, and graphics.
-Black Dashboard React comes packed with all plugins that you might need inside a project and documentation on how to get started. It is light and easy to use, and also very powerful.
+Start your development with a Design System for [Bootstrap 4](https://getbootstrap.com/?ref=creativetim), [React](https://reactjs.org/?ref=creativetim) and [Reactstrap](https://reactstrap.github.io/?ref=creativetim). It is open source, free and it features many components that can help you create amazing websites.
 
-Black Dashboard React features over 16 individual components, giving you the freedom of choosing and combining. This means that there are thousands of possible combinations. All components can take variations in color, that you can easily modify using SASS files. You will save a lot of time going from prototyping to full-functional code because all elements are implemented.
-We thought about everything, so this dashboard comes with 2 versions, Dark Mode and Light Mode.
+**Fully Coded Components**
 
-Special thanks go for the owners of these plugins:
+Argon Design System React is built with over 100 individual components, giving you the freedom of choosing and combining. All components can take variations in color, that you can easily modify using SASS files.
 
-- [Perfect Scrollbar](http://utatti.github.io/perfect-scrollbar/) for the nice scrollbars for windows.
-- [React Chartjs](http://jerairrest.github.io/react-chartjs-2/) for the wonderful wrapper for charts.
-- [Chartjs](https://www.chartjs.org/) for the wonderful charts.
+You will save a lot of time going from prototyping to full-functional code, because all elements are implemented. This Design System is coming with prebuilt examples, so the development process is seamless, switching from our pages to the real website is very easy to be done.
 
-We are very excited to share this dashboard with you and we look forward to hearing your feedback!
+Every element has multiple states for colors, styles, hover, focus, that you can easily access and use.
 
-**Example Pages** We wanted to fully display the power of this dashboard, so the kit comes packed with examples showing you how to use the components.
+View [all components here](https://demos.creative-tim.com/argon-design-system-react/#/?ref=adsr-github-readme).
+
+**Complex Documentation**
+
+Each element is well presented in a very complex documentation. You can read more about the [idea behind this design system here](https://demos.creative-tim.com/argon-design-system-react/#/documentation/overview?ref=adsr-github-readme). You can [check the components here](https://demos.creative-tim.com/argon-design-system-react/#/documentation/alert?ref=adsr-github-readme) and [the foundation here](https://demos.creative-tim.com/argon-design-system-react/#/documentation/colors?ref=adsr-github-readme).
+
+**Example Pages**
+
+If you want to get inspiration or just show something directly to your clients, you can jump start your development with our pre-built example pages. You will be able to quickly set up the basic structure for your web project.
+
+View [example pages here](https://demos.creative-tim.com/argon-design-system-react/#/landing-page?ref=adsr-github-readme).
 
 ## Table of Contents
 
@@ -30,157 +36,182 @@ We are very excited to share this dashboard with you and we look forward to hear
 - [Browser Support](#browser-support)
 - [Resources](#resources)
 - [Reporting Issues](#reporting-issues)
-- [Technical Support or Questions](#technical-support-or-questions)
 - [Licensing](#licensing)
 - [Useful Links](#useful-links)
 
 ## Versions
 
-[<img src="./github-assets/html.png" width="60" height="60" />](https://www.creative-tim.com/product/black-dashboard)
-[<img src="./github-assets/react.svg" width="60" height="60" />](https://www.creative-tim.com/product/black-dashboard-react)[<img src="./github-assets/vuejs.png" width="60" height="60" />](https://www.creative-tim.com/product/vue-black-dashboard)
+[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/html-logo.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/argon-design-system)[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/angular-logo.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/argon-design-system-angular)[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/vue-logo.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/vue-argon-design-system)[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/react-logo.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/argon-design-system-react)[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/sketch-logo.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/argon-design-system-react)[<img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/photoshop-logo.jpg" width="60" height="60" />](https://www.creative-tim.com/product/argon-design-system-react)
 
-| HTML                                                                                                                                                                | React                                                                                                                                                                   | Vue                                                                                                                                                                        |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![Black Dashboard HTML](https://s3.amazonaws.com/creativetim_bucket/products/93/thumb/opt_bd_thumbnail.jpg)](https://www.creative-tim.com/product/black-dashboard) | [![Black Dashboard React](https://s3.amazonaws.com/creativetim_bucket/products/136/thumb/opt_bd_react.jpg)](https://www.creative-tim.com/product/black-dashboard-react) | [![Vue Black Dashboard](https://s3.amazonaws.com/creativetim_bucket/products/99/thumb/opt_bd_vue_thumbnail.jpg)](https://www.creative-tim.com/product/vue-black-dashboard) |
+| HTML                                                                                                                                                                                                                                  | Angular                                                                                                                                                                                                                                                          | Vue                                                                                                                                                                                                                                              | React                                                                                                                                                                                                                                                    |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![Argon Design System HTML](https://github.com/creativetimofficial/public-assets/blob/master/argon-design-system/argon-design-system.jpg?raw=true)](https://www.creative-tim.com/product/argon-design-system?ref=adsr-github-readme) | [![Argon Design System Angular](https://github.com/creativetimofficial/public-assets/blob/master/argon-design-system-angular/argon-design-system-angular.jpg?raw=true)](https://www.creative-tim.com/product/argon-design-system-angular?ref=adsr-github-readme) | [![Vue Argon Design System](https://github.com/creativetimofficial/public-assets/blob/master/vue-argon-design-system/vue-argon-design-system.jpg?raw=true)](https://www.creative-tim.com/product/vue-argon-design-system?ref=adsr-github-readme) | [![Argon Design System React](https://github.com/creativetimofficial/public-assets/blob/master/argon-design-system-react/argon-design-system-react.jpg?raw=true)](https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-github-readme) |
 
 ## Demo
 
-| Dashboard                                                                                                             | User Profile                                                                                                            | Tables                                                                                                               | Maps                                                                                                       | Notification                                                                                                                         |
-| --------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| [![Start page](./github-assets/dashboard-page.png)](https://demos.creative-tim.com/black-dashboard-react/#/dashboard) | [![User profile page](./github-assets/user-page.png)](https://demos.creative-tim.com/black-dashboard-react/#/user-page) | [![Tables page ](./github-assets/table-page.png)](https://demos.creative-tim.com/black-dashboard-react/#/table-list) | [![Maps Page](./github-assets/maps-page.png)](https://demos.creative-tim.com/black-dashboard-react/#/maps) | [![Notification page](./github-assets/notifications-page.png)](https://demos.creative-tim.com/black-dashboard-react/#/notifications) |
+| Buttons                                                                                                                                                                                    | Inputs                                                                                                                                                                                   | Navbars                                                                                                                                                                                   |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![Buttons](https://github.com/creativetimofficial/public-assets/blob/master/argon-design-system-react/buttons.png?raw=true)](https://demos.creative-tim.com/argon-design-system-react/#/) | [![Inputs](https://github.com/creativetimofficial/public-assets/blob/master/argon-design-system-react/inputs.png?raw=true)](https://demos.creative-tim.com/argon-design-system-react/#/) | [![Navbar](https://github.com/creativetimofficial/public-assets/blob/master/argon-design-system-react/navbars.png?raw=true)](https://demos.creative-tim.com/argon-design-system-react/#/) |
 
-[View More](https://demos.creative-tim.com/black-dashboard-react/#/dashboard).
+| Login Page                                                                                                                                                                                             | Landing Page                                                                                                                                                                                                | Profile Page                                                                                                                                                                                                | Register Page                                                                                                                                                                                                  |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![Login Page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-design-system-react/login.png)](https://demos.creative-tim.com/argon-design-system-react/#/login-page) | [![Landing Page](https://github.com/creativetimofficial/public-assets/blob/master/argon-design-system-react/landing.png?raw=true)](https://demos.creative-tim.com/argon-design-system-react/#/landing-page) | [![Profile Page](https://github.com/creativetimofficial/public-assets/blob/master/argon-design-system-react/profile.png?raw=true)](https://demos.creative-tim.com/argon-design-system-react/#/profile-page) | [![Register Page](https://github.com/creativetimofficial/public-assets/blob/master/argon-design-system-react/register.png?raw=true)](https://demos.creative-tim.com/argon-design-system-react/#/register-page) |
+
+[View More](https://demos.creative-tim.com/argon-design-system-react?ref=adsr-github-readme)
 
 ## Quick start
 
-Quick start options:
-
-- Clone the repo: `git clone https://github.com/creativetimofficial/black-dashboard-react.git`.
-- [Download from Github](https://github.com/creativetimofficial/black-dashboard-react/archive/master.zip).
-- [Download from Creative Tim](https://www.creative-tim.com/product/black-dashboard-react).
+- `npm i argon-design-system-react`
+- [Download from Github](https://github.com/creativetimofficial/argon-design-system-react/archive/master.zip).
+- [Download from Creative Tim](https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-github-readme).
+- Install with [Bower](https://bower.io/?ref=creativetim): `bower install argon-design-system-react`.
+- Clone the repo: `git clone https://github.com/creativetimofficial/argon-design-system-react.git`.
 
 ## Documentation
 
-The documentation for the Black Dashboard React is hosted at our [website](https://demos.creative-tim.com/black-dashboard-react/#/documentation/tutorial).
+The documentation for the Argon Design System React is hosted at our [website](https://demos.creative-tim.com/argon-design-system-react/#/documentation/overview).
 
 ## File Structure
 
 Within the download you'll find the following directories and files:
 
 ```
-black-dashboard-react
+Argon Design System React
 .
-├── package.json
 ├── CHANGELOG.md
 ├── ISSUE_TEMPLATE.md
-├── LICENSE.md
+├── LICENSE
 ├── README.md
+├── jsconfig.json
+├── package.json
 ├── Documentation
 │   └── documentation.html
-├── github-assets
-│   └── react.svg
 ├── public
+│   ├── favicon.ico
 │   ├── index.html
 │   └── manifest.json
 └── src
-    ├── index.js
-    ├── logo-white.svg
-    ├── logo.svg
-    ├── routes.js
     ├── assets
     │   ├── css
-    │   ├── demo
-    │   ├── fonts
+    │   │   ├── argon-design-system-react.css
+    │   │   ├── argon-design-system-react.css.map
+    │   │   └── argon-design-system-react.min.css
     │   ├── img
-    │   └── scss
-    │       ├── black-dashboard
-    │       │   ├── bootstrap
-    │       │   │   ├── mixins
-    │       │   │   └── utilities
-    │       │   ├── custom
-    │       │   │   ├── cards
-    │       │   │   ├── mixins
-    │       │   │   ├── utilities
-    │       │   │   └── vendor
-    │       └── black-dashboard.scss
+    │   │   ├── brand
+    │   │   ├── icons
+    │   │   │   └── common
+    │   │   ├── ill
+    │   │   └── theme
+    │   ├── scss
+    │   │   ├── argon-design-system-react.scss
+    │   │   ├── bootstrap
+    │   │   │   ├── mixins
+    │   │   │   └── utilities
+    │   │   ├── custom
+    │   │   │   ├── mixins
+    │   │   │   ├── utilities
+    │   │   │   └── vendor
+    │   │   └── react
+    │   │       ├── custom
+    │   │       │   └── vendor
+    │   │       └── react-differences.scss
+    │   └── vendor
+    │       ├── font-awesome
+    │       │   ├── css
+    │       │   └── fonts
+    │       └── nucleo
+    │           ├── css
+    │           └── fonts
     ├── components
-    │   ├── FixedPlugin
-    │   │   └── FixedPlugin.js
-    │   ├── Footer
-    │   │   └── Footer.js
-    │   ├── Navbars
-    │   │   ├── AdminNavbar.js
-    │   │   └── RTLNavbar.js
-    │   └── Sidebar
-    │       └── Sidebar.js
-    ├── layouts
-    │   ├── Admin
-    │   │   └── Admin.js
-    │   └── RTL
-    │       └── RTL.js
-    ├── variables
-    │   └── charts.js
+    │   ├── Footers
+    │   │   ├── CardsFooter.js
+    │   │   └── SimpleFooter.js
+    │   └── Navbars
+    │       └── DemoNavbar.js
+    ├── index.js
     └── views
-        ├── Dashboard.js
-        ├── Icons.js
-        ├── Map.js
-        ├── Notifications.js
-        ├── Rtl.js
-        ├── TableList.js
-        ├── Typography.js
-        └── UserProfile.js
+        ├── Index.js
+        ├── IndexSections
+        │   ├── Alerts.js
+        │   ├── Buttons.js
+        │   ├── Carousel.js
+        │   ├── CustomControls.js
+        │   ├── Datepicker.js
+        │   ├── Download.js
+        │   ├── Hero.js
+        │   ├── Icons.js
+        │   ├── Inputs.js
+        │   ├── Labels.js
+        │   ├── Login.js
+        │   ├── Menus.js
+        │   ├── Modals.js
+        │   ├── Navbars.js
+        │   ├── Pagination.js
+        │   ├── Pills.js
+        │   ├── Progress.js
+        │   ├── Tabs.js
+        │   ├── TooltipPopover.js
+        │   └── Typography.js
+        └── examples
+            ├── Landing.js
+            ├── Login.js
+            ├── Profile.js
+            └── Register.js
 ```
 
 ## Browser Support
 
 At present, we officially aim to support the last two versions of the following browsers:
 
-<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64">
+<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/chrome-logo.png?raw=true" width="64" height="64"> <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/firefox-logo.png" width="64" height="64"> <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/edge-logo.png" width="64" height="64"> <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/safari-logo.png" width="64" height="64"> <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/opera-logo.png" width="64" height="64">
 
 ## Resources
 
-- Demo: https://demos.creative-tim.com/black-dashboard-react/#/dashboard
-- Download Page: https://www.creative-tim.com/product/black-dashboard-react
-- Documentation: https://demos.creative-tim.com/black-dashboard-react/#/documentation/tutorial
-- License Agreement: https://www.creative-tim.com/license
-- Support: https://www.creative-tim.com/contact-us
-- Issues: [Github Issues Page](https://github.com/creativetimofficial/black-dashboard-react/issues)
+- Demo: <https://demos.creative-tim.com/argon-design-system-react/#/?ref=adsr-github-readme>
+- Download Page: <https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-github-readme>
+- Documentation: <https://demos.creative-tim.com/argon-design-system-react/#/documentation/overview?ref=adsr-github-readme>
+- License Agreement: <https://www.creative-tim.com/license?ref=adsr-github-readme>
+- Support: <https://www.creative-tim.com/contact-us?ref=adsr-github-readme>
+- Issues: [Github Issues Page](https://github.com/creativetimofficial/argon-design-system-react/issues?ref=creativetim)
+- **Dashboard:**
+
+| HTML                                                                                                                                                                                                                   | Angular                                                                                                                                                                                                                                          | Vue                                                                                                                                                                                                       | React                                                                                                                                                                                                                                    | Laravel                                                                                                                                                                                                                                          | NodeJS                                                                                                                                                                                                                                        |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![Argon Dashboard  HTML](https://github.com/creativetimofficial/public-assets/blob/master/argon-dashboard/argon-dashboard.jpg?raw=true)](https://www.creative-tim.com/product/argon-dashboard?ref=adsr-github-readme) | [![Argon Dashboard Angular](https://github.com/creativetimofficial/public-assets/blob/master/argon-dashboard-angular/argon-dashboard-angular.jpg?raw=true)](https://www.creative-tim.com/product/argon-dashboard-angular?ref=adsr-github-readme) | [![Vue Argon Dashboard](https://github.com/creativetimofficial/public-assets/blob/master/vue-argon-dashboard/vue-argon-dashboard.jpg?raw=true)](https://www.creative-tim.com/product/vue-argon-dashboard) | [![Argon Dashboard React](https://github.com/creativetimofficial/public-assets/blob/master/argon-dashboard-react/argon-dashboard-react.jpg?raw=true)](https://www.creative-tim.com/product/argon-dashboard-react?ref=adsr-github-readme) | [![Argon Dashboard Laravel](https://github.com/creativetimofficial/public-assets/blob/master/argon-dashboard-laravel/argon-dashboard-laravel.jpg?raw=true)](https://www.creative-tim.com/product/argon-dashboard-laravel?ref=adsr-github-readme) | [![Argon Dashboard NodeJS](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-dashboard-nodejs/argon-dashboard-nodejs.jpg)](https://www.creative-tim.com/product/argon-dashboard-nodejs?ref=adsr-github-readme) |
 
 ## Reporting Issues
 
-We use GitHub Issues as the official bug tracker for the Black Dashboard React. Here are some advices for our users that want to report an issue:
+We use GitHub Issues as the official bug tracker for the Argon Design System React. Here are some advices for our users that want to report an issue:
 
-1. Make sure that you are using the latest version of the Black Dashboard React. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/).
+1. Make sure that you are using the latest version of the Argon Design System React. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/?ref=adsr-github-readme).
 2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
 3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
 
-## Technical Support or Questions
-
-If you have questions or need help integrating the product please [contact us](https://www.creative-tim.com/contact-us) instead of opening an issue.
-
 ## Licensing
 
-- Copyright 2022 Creative Tim (https://www.creative-tim.com)
-- Licensed under MIT (https://github.com/creativetimofficial/black-dashboard-react/blob/master/LICENSE.md)
+- Copyright 2022 Creative Tim (https://www.creative-tim.com/?ref=adsr-github-readme)
+
+- Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md?ref=creativetim)
 
 ## Useful Links
 
-More products from Creative Tim: <https://www.creative-tim.com/products>
+- [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w?ref=creativetim)
+- [Affiliate Program](https://www.creative-tim.com/affiliates/new?ref=adsr-github-readme) (earn money)
+- [Blog Creative Tim](http://blog.creative-tim.com/?ref=adsr-github-readme)
+- [Free Products](https://www.creative-tim.com/bootstrap-themes/free?ref=adsr-github-readme) from Creative Tim
+- [Premium Products](https://www.creative-tim.com/bootstrap-themes/premium?ref=adsr-github-readme) from Creative Tim
+- [React Products](https://www.creative-tim.com/bootstrap-themes/react-themes?ref=adsr-github-readme) from Creative Tim
+- [Angular Products](https://www.creative-tim.com/bootstrap-themes/angular-themes?ref=adsr-github-readme) from Creative Tim
+- [VueJS Products](https://www.creative-tim.com/bootstrap-themes/vuejs-themes?ref=adsr-github-readme) from Creative Tim
+- [More products](https://www.creative-tim.com/bootstrap-themes?ref=adsr-github-readme) from Creative Tim
+- Check our Bundles [here](https://www.creative-tim.com/bundles?ref=adsr-github-readme)
 
-Tutorials: <https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w>
+### Social Media
 
-Freebies: <https://www.creative-tim.com/products>
+Twitter: <https://twitter.com/CreativeTim?ref=creativetim>
 
-Affiliate Program (earn money): <https://www.creative-tim.com/affiliates/new>
+Facebook: <https://www.facebook.com/CreativeTim?ref=creativetim>
 
-Social Media:
+Dribbble: <https://dribbble.com/creativetim?ref=creativetim>
 
-Twitter: <https://twitter.com/CreativeTim>
-
-Facebook: <https://www.facebook.com/CreativeTim>
-
-Dribbble: <https://dribbble.com/creativetim>
-
-Google+: <https://plus.google.com/+CreativetimPage>
-
-Instagram: <https://instagram.com/creativetimofficial>
+Instagram: <https://www.instagram.com/CreativeTimOfficial?ref=creativetim>
