@@ -1,10 +1,14 @@
-import React, { useState, useContext, useEffect, useRef, } from 'react';
+import React, { useState, useContext, useEffect, useRef } from 'react';
 import { Select, Space, Button } from 'antd';
 import axios from 'axios';
+import PropDrilling from "contexts/PropDrilling"
+
 
 const SelectFighter = () => {
   const [sex, setAge] = useState('')
   const [weight, setWeight] = useState('')
+  const { setFighters } = useContext(PropDrilling)
+  // const [fighters, setFighters] = useState([])
   
   const handleSex = (value) => {
     console.log(`selected ${value}`);
@@ -21,14 +25,10 @@ const SelectFighter = () => {
     res['weight'] = weight
     if(res['sex'] === 'male' && res['weight'] === 'cruiser'){
       console.log('found')
-      axios.get('https://data.mongodb-api.com/app/data-pkrpq/endpoint/malecruise',  {
-        headers:{
-          'Access-Control-Allow-Origin': '*',
-          'api-key': '5opRhTzTbi2N2A71LeLZBAhrZEDxjUakTc1UOncQ2qGjg5CE1IvGTfLBMFFpVyL2',
-        }
-      })
+      axios.get('https://coderace.vercel.app/malecruiser')
         .then(res => {
-          console.log('received', res)
+          console.log('received', res.data.challenge)
+          setFighters(res.data.challenge)
         })
     }
   }
