@@ -93,7 +93,15 @@ const FighterCards = () => {
                           href="#pablo"
                           onClick={(e) => e.preventDefault()}
                         >
-                          Learn more
+                          Bet
+                        </Button>
+                        <Button
+                          className="mt-4"
+                          color="success"
+                          href="#pablo"
+                          onClick={(e) => e.preventDefault()}
+                        >
+                          More Info
                         </Button>
                       </CardBody>
                     </Card>
