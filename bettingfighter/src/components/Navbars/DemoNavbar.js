@@ -5,11 +5,6 @@ import Headroom from "headroom.js";
 import {
   Button,
   UncontrolledCollapse,
-  DropdownMenu,
-  DropdownItem,
-  DropdownToggle,
-  UncontrolledDropdown,
-  Media,
   NavbarBrand,
   Navbar,
   NavItem,
@@ -57,7 +52,7 @@ class DemoNavbar extends React.Component {
               <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
                 <img
                   alt="..."
-                  src={require("assets/img/brand/argon-react-white.png")}
+                  src={"https://img.freepik.com/premium-vector/boxing-gloves-icon-vector-illustration_319667-280.jpg?w=2000"}
                 />
               </NavbarBrand>
               <button className="navbar-toggler" id="navbar_global">
@@ -76,7 +71,7 @@ class DemoNavbar extends React.Component {
                       <Link to="/">
                         <img
                           alt="..."
-                          src={require("assets/img/brand/argon-react.png")}
+                          src={"https://img.freepik.com/premium-vector/boxing-gloves-icon-vector-illustration_319667-280.jpg?w=2000"}
                         />
                       </Link>
                     </Col>
@@ -92,7 +87,7 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://www.facebook.com/creativetim"
+                      href="https://emmanuelsibanda.vercel.app/"
                       id="tooltip333589074"
                       target="_blank"
                     >
@@ -102,23 +97,8 @@ class DemoNavbar extends React.Component {
                       </span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip333589074">
-                      Visit my Repo
+                      Visit my Portfolio
                     </UncontrolledTooltip>
-                  </NavItem>
-                  <NavItem className="d-none d-lg-block ml-lg-4">
-                    <Button
-                      className="btn-neutral btn-icon"
-                      color="default"
-                      href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-navbar"
-                      target="_blank"
-                    >
-                      <span className="btn-inner--icon">
-                        <i className="fa fa-cloud-download mr-2" />
-                      </span>
-                      <span className="nav-link-inner--text ml-1">
-                        Download Boxing Data
-                      </span>
-                    </Button>
                   </NavItem>
                 </Nav>
               </UncontrolledCollapse>
