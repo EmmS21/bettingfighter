@@ -10,22 +10,16 @@ import {
 } from "reactstrap";
 import axios from 'axios';
 import PropDrilling from "contexts/PropDrilling";
-
+import { Col as AntCol, InputNumber, Row as AntRod, Slider, Space } from 'antd';
 
 const FighterCards = () => {
     const { fighters } = useContext(PropDrilling);
-    const outcome = useRef([])
-    const winnerA = useRef([])
-    const tie = useRef([])
-    const winnerB = useRef([])
-    // const [winnerA, setWinnerA] = useState(false)
-    // const [tie, setTie] = useState(false)
-    // const [winnerB, setWinnerB] = useState(false)
-    useEffect(() => {
-        console.log('fighters are now', fighters)
-        console.log(`age:${JSON.stringify(fighters[0])}}`)
-        console.log('inside', fighters[0]?.global_id)
-    },[fighters])   
+    const [outcome, setOutcome] = useState('')
+    const [aBet, setABet] = useState(1);
+
+    const changeABet = (newValue) => {
+      setABet(newValue);
+    };
 
     function getPrediction(data) {
       const sending  = {}
@@ -43,24 +37,10 @@ const FighterCards = () => {
           for(let i = 0; i < poss.length; i++){
             runningSum += poss[i];
             if(randomVal <= runningSum){
-              outcome.current = outcomes[i]
-              if(outcome.current === 'userAW' || outcome.current === 'userBL'){
-                console.log('one')
-                winnerA.current = true
-              }
-              else if(outcome.current === 'Draw'){
-                console.log('two')
-                tie.current = true
-              }
-              else if(outcome.current === 'userBW' || outcome.current === 'userAL'){
-                console.log('three')
-                winnerB.current = true
-              }
+              setOutcome(outcomes[i])
               break
             }
           }
-          console.log('outcome is', outcome )
-          console.log(winnerA.current)
         })
     }
     return(
@@ -74,7 +54,16 @@ const FighterCards = () => {
                     <Card className="card-lift--hover shadow border-0">
                       <CardBody className="py-5">
                         <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
-                          { winnerA.current === true ? 'Winner' : tie.current === true ? 'Tie' : winnerB.current === true ? 'Lost' : null}
+                          {
+                            outcome === 'userAW' || outcome === 'userBL' ?
+                              'Won'
+                            : outcome === 'Draw' ?
+                              'Drew'
+                            : outcome === 'userBW' || outcome === 'userAL' ?
+                              'Lost'
+                            :
+                            null
+                          }
                         </div>
                         <h6 className="text-primary text-uppercase">
                           { fighters.length < 2 ? null : fighters[0]?.name }
@@ -91,14 +80,28 @@ const FighterCards = () => {
                             weight : {fighters.length < 2 ? null : fighters[0]?.weight}
                           </Badge>
                         </div>
-                        <Button
-                          className="mt-4"
-                          color="primary"
-                          href="#pablo"
-                          onClick={(e) => e.preventDefault()}
-                        >
-                          Bet
-                        </Button>
+                        <h5>Bet:</h5>
+                        <Row>
+                          <AntCol span={12}>
+                            <Slider
+                              min={100}
+                              max={1000}
+                              onChange={changeABet}
+                              value={typeof aBet === 'number' ? aBet : 0}
+                            />
+                          </AntCol>
+                          <AntCol span={100}>
+                            <InputNumber
+                              min={100}
+                              max={1000}
+                              formatter={value => `${value}`.replace(/\B(?=(\d{3})+(?!\d))/g, ',')}
+                              parser={value => value.replace(/\$\s?|(,*)/g, '')}
+                              style={{ margin: '0 16px' }}
+                              value={aBet}
+                              onChange={changeABet}
+                            />
+                          </AntCol>
+                        </Row>
                       </CardBody>
                     </Card>
                   </Col>
@@ -106,7 +109,16 @@ const FighterCards = () => {
                     <Card className="card-lift--hover shadow border-0">
                       <CardBody className="py-5">
                         <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
-                          { winnerB.current === true ? 'Winner' : tie.current === true ? 'Tie' : winnerA.current === true ? 'Lost' : null}
+                          {
+                            outcome === 'userBW' || outcome === 'userAL' ?
+                             'Won'
+                             : outcome === 'Draw' ?
+                             'Drew'
+                             : outcome === 'userAW' || outcome === 'userBL' ? 
+                             'Lost'
+                             :
+                             null
+                          }
                         </div>
                         <h6 className="text-success text-uppercase">
                           {fighters.length < 2 ? null : fighters[1].name}

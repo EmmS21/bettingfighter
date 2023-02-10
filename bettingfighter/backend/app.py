@@ -2,6 +2,7 @@ from flask import Flask, request
 import pickle
 import pandas as pd
 from flask_cors import CORS
+import sklearn
 
 app = Flask(__name__)
 CORS(app)
@@ -40,19 +41,12 @@ def home():
     pred[['Loss.KO', 'Loss.Other']] = pred_loss
     pred['KnockedOut.ratio'] = pred_knockedout
     pred['KO.ratio'] = pred_ko_ratio
-    pred.drop(["Win","Loss", "KO", "KnockedOut", "Jab", "Power", "Total", "Avg"], axis=1, inplace=True)
-    pred[["opp_last6","Draw", "weight", "Loss.KO", "Loss.Other", "Win.KO", "Win.Other","fight_count",
-             "avgpts","avgptsagainst", "KO.ratio", "KnockedOut.ratio", "age", "height",
-            "Jab.accuracy", "Power.punch.accuracy", "Total.punch.accuracy", "Avg.Jabs.landed","Avg.Power.punches.landed",
-            "Avg.Total.punches.landed", "last6"]] =  pred[["opp_last6","Draw", "weight", "Loss.KO", "Loss.Other", "Win.KO", "Win.Other","fight_count",
-                                                           "avgpts","avgptsagainst", "KO.ratio", "KnockedOut.ratio", "age", "height",
-                                                           "Jab.accuracy", "Power.punch.accuracy", "Total.punch.accuracy", "Avg.Jabs.landed","Avg.Power.punches.landed",
-                                                           "Avg.Total.punches.landed", "last6"]]
+    pred.drop(["Win","Loss", "KO", "KnockedOut", "Jab", "Power", "Total", "Avg"], axis=1, inplace=True)    
     pred["last6"] = pred["last6"] = pred.loc[(pred["last6"].astype(str).str.contains('NA') == True)] = 0
     # pred["opp_last6"] = pred["opp_last6"] = pred.loc[(pred["opp_last6"].astype(str).str.contains('NA') == True)] = 0
     # pred["Draw"] = pred["Draw"] = pred.loc[(pred["Draw"].astype(str).str.contains('NA') == True)] = 0
     # pred["weight"] = pred["weight"] = pred.loc[(pred["weight"].astype(str).str.contains('NA') == True)] = 0
-    # pred["Loss.KO"] = pred["Loss.KO"] = pred.loc[(pred["Loss.KO"].astype(str).str.contains('NA') == True)] = 0
+    # pred["Loss.KO"] = prexd["Loss.KO"] = pred.loc[(pred["Loss.KO"].astype(str).str.contains('NA') == True)] = 0
     # pred["Loss.Other"] = pred["Loss.Other"] = pred.loc[(pred["Loss.Other"].astype(str).str.contains('NA') == True)] = 0
     # pred["Win.KO"] = pred["Win.KO"] = pred.loc[(pred["Win.KO"].astype(str).str.contains('NA') == True)] = 0
     # pred["Win.Other"] = pred["Win.Other"] = pred.loc[(pred["Win.Other"].astype(str).str.contains('NA') == True)] = 0
@@ -74,10 +68,22 @@ def home():
     pred["Avg.Jabs.landed"] = pd.json_normalize(pred["Avg.Jabs.landed"])
     pred["Avg.Power.punches.landed"] = pd.json_normalize(pred["Avg.Power.punches.landed"])
     pred["Avg.Total.punches.landed"] = pd.json_normalize(pred["Avg.Total.punches.landed"])
+    pred[["opp_last6","Draw", "weight", "Loss.KO", "Loss.Other", "Win.KO", "Win.Other","fight_count",
+             "avgpts","avgptsagainst", "KO.ratio", "KnockedOut.ratio", "age", "height",
+            "Jab.accuracy", "Power.punch.accuracy", "Total.punch.accuracy", "Avg.Jabs.landed","Avg.Power.punches.landed",
+            "Avg.Total.punches.landed", "last6"]] =  pred[["opp_last6","Draw", "weight", "Loss.KO", "Loss.Other", "Win.KO", "Win.Other","fight_count",
+                                                           "avgpts","avgptsagainst", "KO.ratio", "KnockedOut.ratio", "age", "height",
+                                                           "Jab.accuracy", "Power.punch.accuracy", "Total.punch.accuracy", "Avg.Jabs.landed","Avg.Power.punches.landed",
+                                                           "Avg.Total.punches.landed", "last6"]]
     result = random_forest.predict_proba(pred)
     result = pd.DataFrame(result)
     print(pred.columns)
     return pd.DataFrame.to_json(result)
+
+# X = dataset[["opp_last6","Draw", "weight", "Loss.KO", "Loss.Other", "Win.KO", "Win.Other","fight_count",
+#              "avgpts","avgptsagainst", "KO.ratio", "KnockedOut.ratio", "age", "height",
+#             "Jab.accuracy", "Power.punch.accuracy", "Total.punch.accuracy", "Avg.Jabs.landed","Avg.Power.punches.landed",
+#             "Avg.Total.punches.landed", "last6"]]
     # return 'works'
 
 app.run(port=5000)
